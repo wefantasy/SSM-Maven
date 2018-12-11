@@ -15,7 +15,7 @@
 		<file>${catalina.base}/webapps/logs/info/proname_info.log</file>
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>${catalina.base}/webapps/logs/info/proname_info.%d{yyyy-MM-dd}.%i.log.zip
+			<fileNamePattern>${catalina.base}/webapps/logs/INFO/proname_info.%d{yyyy-MM-dd}.%i.log.zip
 			</fileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy
 				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
@@ -63,11 +63,11 @@
 	<appender name="ERROR-FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<file>
-			${catalina.base}/webapps/logs/WARN/proname_WARN.log
+			${catalina.base}/webapps/logs/ERROR/proname_ERROR.log
 		</file>
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<FileNamePattern>${catalina.base}/webapps/logs/WARN/proname_WARN.%d{yyyy-MM-dd}.%i.log.zip
+			<FileNamePattern>${catalina.base}/webapps/logs/ERROR/proname_ERROR.%d{yyyy-MM-dd}.%i.log.zip
 			</FileNamePattern>
 			<timeBasedFileNamingAndTriggeringPolicy
 				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">

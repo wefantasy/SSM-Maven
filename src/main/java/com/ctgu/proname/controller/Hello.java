@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 * @version V1.0  
 */
 @Controller
-public class Hello {
+public class Hello{
 	@RequestMapping("/hello")
 	public String getPath() {
 		return "hello";

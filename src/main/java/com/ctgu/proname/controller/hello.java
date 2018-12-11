@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 * @version V1.0  
 */
 @Controller
-@RequestMapping("/test")
-public class hello {
+public class Hello {
 	@RequestMapping("/hello")
-	public String hello() {
+	public String getPath() {
 		return "hello";
 	}
+	
 }
